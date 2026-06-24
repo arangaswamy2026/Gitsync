@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Details</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      padding: 2.5rem 3rem;
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      max-width: 420px;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .blurb { font-size: 1rem; opacity: 0.9; margin-bottom: 1.5rem; line-height: 1.6; }
+    .details {
+      text-align: left;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      padding-top: 1.25rem;
+    }
+    .row { display: flex; justify-content: space-between; padding: 0.4rem 0; font-size: 0.95rem; }
+    .label { opacity: 0.75; }
+    .value { font-weight: 500; }
+    .nav { margin-top: 1.5rem; }
+    .nav a { color: #fff; opacity: 0.85; text-decoration: underline; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>User Details</h1>
+    <p class="blurb">Aravind is part of the SonicWall team and is exploring design and development collaboration workflows using Git and GitHub.</p>
+    <div class="details">
+      <div class="row"><span class="label">Name</span><span class="value">Aravind</span></div>
+      <div class="row"><span class="label">Email</span><span class="value">arangaswamy@sonicwall.com</span></div>
+      <div class="row"><span class="label">Organization</span><span class="value">SonicWall</span></div>
+      <div class="row"><span class="label">Role</span><span class="value">UX Design</span></div>
+    </div>
+    <div class="nav"><a href="index.html">&larr; Back to Welcome</a></div>
+  </main>
+</body>
+</html>
