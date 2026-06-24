@@ -24,13 +24,23 @@
       backdrop-filter: blur(10px);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
       max-width: 420px;
+      width: 100%;
     }
     h1 { font-size: 2rem; margin-bottom: 0.5rem; }
     .blurb { font-size: 1rem; opacity: 0.9; margin-bottom: 1.5rem; line-height: 1.6; }
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.6;
+      margin-bottom: 0.75rem;
+      text-align: left;
+    }
     .details {
       text-align: left;
       border-top: 1px solid rgba(255, 255, 255, 0.25);
       padding-top: 1.25rem;
+      margin-bottom: 1.5rem;
     }
     .row { display: flex; justify-content: space-between; padding: 0.4rem 0; font-size: 0.95rem; }
     .label { opacity: 0.75; }
@@ -43,12 +53,24 @@
   <main class="card">
     <h1>User Details</h1>
     <p class="blurb">Aravind is part of the SonicWall team and is exploring design and development collaboration workflows using Git and GitHub.</p>
+
     <div class="details">
+      <p class="section-title">Personal Info</p>
       <div class="row"><span class="label">Name</span><span class="value">Aravind</span></div>
       <div class="row"><span class="label">Email</span><span class="value">arangaswamy@sonicwall.com</span></div>
       <div class="row"><span class="label">Organization</span><span class="value">SonicWall</span></div>
       <div class="row"><span class="label">Role</span><span class="value">UX Design</span></div>
     </div>
+
+    <div class="details">
+      <p class="section-title">Employment Details</p>
+      <div class="row"><span class="label">Job Title</span><span class="value">Product Design Architect</span></div>
+      <div class="row"><span class="label">Department</span><span class="value">Product Design</span></div>
+      <div class="row"><span class="label">Location</span><span class="value">Manteca, CA</span></div>
+      <div class="row"><span class="label">Employment Type</span><span class="value">Full-time</span></div>
+      <div class="row"><span class="label">Start Year</span><span class="value">2025</span></div>
+    </div>
+
     <div class="nav"><a href="index.html">&larr; Back to Welcome</a></div>
   </main>
 </body>
